@@ -17,7 +17,7 @@ function Main() {
         const data = await ApiService.fetching(
           `search?part=snippet&q=${selectedCategory}`
         );
-        setVideos(data.items); // ✅ `items` arrayini olish
+        setVideos(data.items);
       } catch (error) {
         console.error("API xatosi:", error);
       }

@@ -11,7 +11,7 @@ function SearchBar() {
     e.preventDefault();
     if (value.trim()) {
       navigate(`/search/${encodeURIComponent(value.trim())}`);
-      setValue(""); // Qidiruvdan keyin maydonni tozalash
+      setValue("");
     }
   };
   return (
