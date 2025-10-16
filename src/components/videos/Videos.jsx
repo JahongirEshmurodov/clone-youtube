@@ -13,7 +13,7 @@ function Videos({ videos }) {
       width={"100%"}
       direction={"row"}
       flexWrap={"wrap"}
-      s
+      ss
       justifyContent={"center"}
       alignItems={"center"}
       gap={2}
